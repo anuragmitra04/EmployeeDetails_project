@@ -2,9 +2,9 @@ package com.lti.dao;
 
 import org.springframework.data.jpa.repository.JpaRepository;
 
-import com.lti.entity.User;
+import com.lti.entity.Employee;
 
-public interface UserDao extends JpaRepository<User, String>{
+public interface EmpDao extends JpaRepository<Employee, Long>{
 
 //	User findBy(Class<User> class1, String email, String password);
 
